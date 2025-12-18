@@ -1,0 +1,33 @@
+/* Page container */
+.favorites-page {
+  padding: 40px 5%;
+  min-height: 100vh;
+  background: #0d0d0d; /* Dark background */
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.favorites-page h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Empty text */
+.favorites-page p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  color: #aaa;
+}
+
+/* Responsive movie grid */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
